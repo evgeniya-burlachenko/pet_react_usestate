@@ -1,0 +1,48 @@
+body  {
+	font-family: 'Roboto Mono', monospace;
+}
+.input_block {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form {
+	
+	.square, .triangle, .circle {
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 10px;
+		cursor: pointer;
+	}
+	.square {
+		width: 50px;
+		height: 50px;
+		background-color: #5d0cff;
+		text-align: center;
+		line-height: 50px;
+		color:#fff;
+	}
+
+	.triangle {
+		width: 0;
+		height: 0;
+		border-left: 50px solid transparent;
+		border-bottom: 50px solid #f95959;
+		writing-mode: vertical-lr;
+	}
+
+	.circle {
+		background: green;
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+		text-align: center;
+		line-height: 50px;
+		color:#fff;
+
+	}
+
+}
+
+
